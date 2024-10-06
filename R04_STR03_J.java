@@ -1,4 +1,7 @@
 
+// Rule 04. Characters and Strings
+// Example STR03-J: Do not encode noncharacter data as a string
+
 public class R04_STR03_J {
     
     BigInteger x = new BigInteger("530500452766");
