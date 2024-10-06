@@ -3,7 +3,7 @@
 // Example VNA00-J: Ensure visibility when accessing shared primitive variables
 
 final class ControlledStop implements Runnable {
-    private boolean done = false;
+    private volatile boolean done = false;
     
     @Override public void run() {
       while (!done) {
