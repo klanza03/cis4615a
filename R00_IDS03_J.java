@@ -1,3 +1,7 @@
+
+// Rule 00. Input Validation and Data Sanitization
+// Example IDS03-J: Do not log unsanitized user input
+
 public class R00_IDS03_J {
     
     if(loginSuccessful){
